@@ -10,7 +10,9 @@ import json
 import traceback
 
 load_dotenv()
+# GOOGLE_API_KEY="AIzaSyD-eNamJ4BhK7ozXGf2yvZtxYeP9pjVXj4"
 
+os.environ["GOOGLE_API_KEY"] = "AIzaSyD-eNamJ4BhK7ozXGf2yvZtxYeP9pjVXj4"
 app = FastAPI()
 
 #origins = ["http://localhost:5173"]  # Vite dev
